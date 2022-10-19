@@ -1,6 +1,5 @@
-let item = "beer"
-let price = "6"
-let quantity = "1"
-let checkout =
- let message = 'Your tab: ' ${quauntity} ${item}s for $${total}';
- console.log(message);
+let item = "beer";
+let price = "6";
+let quantity = "2";
+let message = `Your tab:  ${quantity} ${item}s for $${price * quantity}`;
+console.log(message);
